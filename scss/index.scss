@@ -1,0 +1,10 @@
+// Base
+@import 'base/variables.scss';
+@import 'base/normalize.scss';
+@import 'base/common.scss';
+// Layout
+@import 'layout/main-container-cards.scss';
+@import 'layout/card-user.scss';
+@import 'layout/card-info.scss';
+// Breakpoints
+@import 'layout/breakpoints.scss';

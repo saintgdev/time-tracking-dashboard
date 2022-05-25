@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <section class="main">
+    <!-- Main card profile -->
+    <div class="card-user">
+      <div class="card-user__profile">
+        <img src="images/image-jeremy.png" alt="" class="card-user__avatar">
+        <p class="card-user__name"><span>Report for</span> Jeremy Robson</p>
+      </div>
+
+      <nav class="card-tabs" id="card-tabs">
+        <span class="card-tabs__item">Daily</span>
+        <span class="card-tabs__item card-tabs__item--active">Weekly</span>
+        <span class="card-tabs__item">Monthly</span>
+      </nav>
+    </div>
+
+    <!-- information card container -->
+    <div class="info-container">
+
+      <!-- information card -->
+      <div class="card-info card-info--1">
+        <img src="images/icon-work.svg" alt="" class="card-info__icon">
+        <div class="card-data">
+            <p class="card-data__title">Work</p>
+            <img src="images/icon-ellipsis.svg" alt="icon-ellipsis" class="card-data__dots">
+            <p class="card-data__current"></p>
+            <p class="card-data__previous"></p>
+        </div>
+      </div>
+  
+      <div class="card-info card-info--2">
+        <img src="images/icon-play.svg" alt="" class="card-info__icon">
+        <div class="card-data">
+            <p class="card-data__title">Play</p>
+            <img src="images/icon-ellipsis.svg" alt="icon-ellipsis" class="card-data__dots">
+            <p class="card-data__current"></p>
+            <p class="card-data__previous"></p>
+        </div>
+      </div>
+  
+      <div class="card-info card-info--3">
+        <img src="images/icon-study.svg" alt="" class="card-info__icon">
+        <div class="card-data">
+            <p class="card-data__title">Study</p>
+            <img src="images/icon-ellipsis.svg" alt="icon-ellipsis" class="card-data__dots">
+            <p class="card-data__current"></p>
+            <p class="card-data__previous"></p>
+        </div>
+      </div>
+  
+      <div class="card-info card-info--4">
+        <img src="images/icon-exercise.svg" alt="" class="card-info__icon">
+        <div class="card-data">
+            <p class="card-data__title">Exercise</p>
+            <img src="images/icon-ellipsis.svg" alt="icon-ellipsis" class="card-data__dots">
+            <p class="card-data__current"></p>
+            <p class="card-data__previous"></p>
+        </div>
+      </div>
+  
+      <div class="card-info card-info--5">
+        <img src="images/icon-social.svg" alt="" class="card-info__icon">
+        <div class="card-data">
+            <p class="card-data__title">Social</p>
+            <img src="images/icon-ellipsis.svg" alt="icon-ellipsis" class="card-data__dots">
+            <p class="card-data__current"></p>
+            <p class="card-data__previous"></p>
+        </div>
+      </div>
+  
+      <div class="card-info card-info--6">
+        <img src="images/icon-self-care.svg" alt="" class="card-info__icon">
+        <div class="card-data">
+            <p class="card-data__title">Self Care</p>
+            <img src="images/icon-ellipsis.svg" alt="icon-ellipsis" class="card-data__dots">
+            <p class="card-data__current"></p>
+            <p class="card-data__previous"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

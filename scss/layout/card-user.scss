@@ -1,0 +1,54 @@
+.card-user{
+  width: 100%;
+  border-radius: 1em;
+  overflow: hidden;
+  background-color: $Dark-blue;
+  &__profile{
+    padding: 1.9em;
+    border-radius: 1em;
+    display: grid;
+    column-gap: 1em;
+    align-items: center;
+    grid-template-columns: auto 1fr;
+    background-color: $Blue;
+  }
+  &__avatar{
+    width: 4.43em;
+    height: 4.43em;
+    border-radius: 50%;
+    border: .2em solid white;
+  }
+  &__name{
+    margin: 0;
+    font-size: 1.55em;
+    font-weight: 300;
+    color: $Text-color-1;
+    span{
+      margin-bottom: .5em;
+      font-size: .62em;
+      font-weight: 400;
+      display: block;
+      color: $Pale-Blue;
+    }
+  }
+}
+.card-tabs{
+  padding: 1.5em 0;
+  padding-right: 1.5em;
+  padding-left: 2.2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: $Desaturated-blue;
+  &__item{
+    cursor: pointer;
+    font-size: 1.15em;
+    transition: color .3s ease;
+    &--active{
+      color: $Text-color-1;
+    }
+    &:hover{
+      color: $Text-color-1
+    }
+  }
+}

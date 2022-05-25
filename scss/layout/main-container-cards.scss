@@ -1,0 +1,13 @@
+.main{
+  max-width: calc(1200px + 4.5em);
+  padding: 4em 0;
+  display: grid;
+  row-gap: 1.5em;
+  grid-template-columns: 1fr;
+}
+
+.info-container{
+  display: grid;
+  row-gap: 1.5em;
+  grid-template-columns: 1fr;
+}

@@ -1,0 +1,71 @@
+.card-info{
+  padding-top: 2.5em;
+  border-radius: 1em;
+  overflow: hidden;
+  position: relative;
+  &--1{
+    background-color: $Light-red;
+  }
+  &--2{
+    background-color: $Soft-blue;
+  }
+  &--3{
+    background-color: $Light-red-2;
+  }
+  &--4{
+    background-color: $Lime-green;
+  }
+  &--5{
+    background-color: $Violet;
+  }
+  &--6{
+    background-color: $Soft-orange;
+  }
+  &__icon{
+    width: 5em;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(-30%, -14%);
+  }
+}
+
+.card-data{
+  padding: 1.9em 1.6em;
+  border-radius: 1em;
+  cursor: pointer;
+  font-weight: 300;
+  display: grid;
+  row-gap: .5em;
+  align-items: center;
+  grid-template-columns: auto auto;
+  position: relative;
+  overflow: hidden;
+  transition: background-color .3s;
+  color: $Text-color-1;
+  background-color: $Dark-blue;
+  &__title{
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: 500;
+  }
+  &__dots{
+    padding: .4em;
+    cursor: pointer;
+    justify-self: end;
+  }
+  &__current{
+    margin: 0;
+    font-size: 2em;
+  }
+  &__previous{
+    margin: 0;
+    font-size: .95em;
+    font-weight: 400;
+    justify-self: end;
+    color: $Pale-Blue;
+  }
+  &:hover{
+    background-color: $Card-hover;
+  }
+}
